@@ -1,0 +1,1 @@
+ (cos( ( ( v15 / ( ( v17 + ( (sin( v22 )/e(abs( v4 ))) +sin( v1 )) ) + ( v17 + ( (sin( v22 )/e(abs( v4 ))) +sin( v1 )) ) ) ) +cos( ( ( ( v3 +sin( v22 )) / ( (abs( v4 )+e(abs( v4 ))) - -2.9334374427367393 ) ) -sin(sin( v4 ))) )) )* ( v17 + ( (sin( v22 )/e(abs( v4 ))) +sin( v1 )) ) ) 

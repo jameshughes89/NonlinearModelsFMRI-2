@@ -1,0 +1,1 @@
+ ( ( ( ( v14 + ( v10 + v27 ) ) -sin( v5 )) -sin(sin( v0 ))) /e(tan(cos(cos( v12 ))))) 

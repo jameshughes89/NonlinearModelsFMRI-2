@@ -1,0 +1,1 @@
+ ( ( v7 + ( v25 /cos(cos(abs( v19 )))) ) *cos(e( ( (cos(abs( v14 ))* ( ( v16 +cos(abs( v19 ))) +tan(cos(abs( v19 )))) ) / 8.752478514897824 ) ))) 

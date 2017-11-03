@@ -1,0 +1,1 @@
+ (sin( -9.677202530978391 )* ( ( v21 + ( (abs( (cos(sin( (sin( v21 )+sin( v21 )) ))+ v1 ) )* (cos( v19 )+ v18 ) ) - ( ( (sin( ( v3 - v5 ) )+cos(sin( (sin( v21 )+sin( v21 )) ))) +abs( v10 )) - ( ( v28 + v5 ) + ( v28 - v15 ) ) ) ) ) +abs(cos( (sin( v21 )+sin( v21 )) ))) ) 

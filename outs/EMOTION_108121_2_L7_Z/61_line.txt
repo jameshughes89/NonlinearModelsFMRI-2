@@ -1,0 +1,1 @@
+ ( (sin( v1 )+ ( ( ( v15 +cos(e(tan( v2 )))) + ( v26 + v18 ) ) /e(e( (sin( ( ( v26 + v18 ) * v2 ) )/ ( (abs(cos( v26 ))-cos(tan( v2 ))) /sin( ( ( v26 + v18 ) * v2 ) )) ) ))) ) /e(abs(sin( v8 )))) 

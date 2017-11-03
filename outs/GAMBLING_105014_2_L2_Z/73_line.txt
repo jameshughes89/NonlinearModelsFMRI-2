@@ -1,0 +1,1 @@
+ (tan( -9.21265576383021 )* ( ( (sin( v1 )+ (cos( v3 )+ ( ( v20 + ( v6 - ( v0 + ( (abs( v6 )- v23 ) -cos(sin(cos( v6 )))) ) ) ) + v27 ) ) ) - (cos(cos(sin(cos( v6 ))))+sin( (sin( v3 )* (cos( ( v0 + ( (abs( v6 )- v23 ) -cos(sin(cos( v6 )))) ) )- v1 ) ) )) ) + ( ( v7 *sin( (abs( v23 )+sin(cos( v6 ))) )) + v9 ) ) ) 

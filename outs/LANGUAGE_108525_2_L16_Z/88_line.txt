@@ -1,0 +1,1 @@
+ ( ( (abs( ( v1 + v26 ) )/ 4.938501535622912 ) + (abs( (tan(cos(tan(sin( v26 ))))/ -8.628483204689914 ) )* ( ( (sin( v26 )* v1 ) +tan(cos(tan(sin( v26 ))))) +abs(tan(sin( v26 )))) ) ) * ( v17 -sin( (sin( ( v25 - v28 ) )- v7 ) )) ) 

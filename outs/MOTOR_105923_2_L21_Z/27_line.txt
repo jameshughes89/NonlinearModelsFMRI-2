@@ -1,0 +1,1 @@
+ ( ( ( ( ( v23 +cos( (abs( (cos( v24 )+cos( v24 )) )- v4 ) )) / (abs( (cos( v24 )+ (cos( v24 )+cos( v24 )) ) )+cos(abs( (cos( v24 )+ (cos( v24 )+cos( v24 )) ) ))) ) - ( v20 + ( v9 + v21 ) ) ) - v5 ) /tan( -10.670902551340568 )) 

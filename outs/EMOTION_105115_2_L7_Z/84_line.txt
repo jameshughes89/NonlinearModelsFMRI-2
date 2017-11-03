@@ -1,0 +1,1 @@
+ (cos(sin( v3 ))* ( ( ( v26 *cos(sin( v3 ))) *abs( v3 )) + (cos(cos( (sin( v3 )/ v2 ) ))* v7 ) ) ) 

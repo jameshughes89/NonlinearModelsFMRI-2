@@ -1,0 +1,1 @@
+ ( ( v1 + (cos( ( v12 +cos( ( ( v13 - v24 ) + v13 ) )) )*sin( ( v7 - v24 ) )) ) *cos(abs(cos(cos( v17 ))))) 

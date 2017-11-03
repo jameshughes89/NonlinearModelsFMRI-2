@@ -1,0 +1,1 @@
+ ( ( ( ( ( ( (abs( ( v21 -cos( v0 )) )/e(abs( ( v21 -cos( v0 )) ))) * (abs( ( v21 -cos( v0 )) )+ v25 ) ) - v3 ) - (cos( ( ( (abs( ( v21 -cos( v0 )) )/e(abs( ( v21 -cos( v0 )) ))) * (abs( ( v21 -cos( v0 )) )+ v25 ) ) - v3 ) )*sin(e( v24 ))) ) + v24 ) + v19 ) *tan( 13.062086906280491 )) 

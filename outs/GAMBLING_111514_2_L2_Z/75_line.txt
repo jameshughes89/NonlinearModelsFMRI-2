@@ -1,0 +1,1 @@
+ (cos(sin(tan( v5 )))* ( (cos(cos( ( v2 / v12 ) ))* v27 ) +sin( (cos( ( -10.935913120855098 - v26 ) )- (cos(sin(tan( v5 )))* (sin( ( v2 - v7 ) )+ v2 ) ) ) )) ) 

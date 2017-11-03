@@ -1,0 +1,1 @@
+ ( ( ( ( v8 - (tan(tan( v28 ))/ (tan(tan( v28 ))+e(sin( v28 ))) ) ) /abs( -4.216021832500726 )) + v7 ) *cos(cos( ( ( (tan(tan( v28 ))+e(sin( v28 ))) +abs(abs( ( v28 +cos( v28 )) ))) + ( v28 * (tan(tan( v28 ))+e(sin( v28 ))) ) ) ))) 

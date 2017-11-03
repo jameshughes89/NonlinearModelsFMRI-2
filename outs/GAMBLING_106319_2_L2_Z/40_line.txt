@@ -1,0 +1,1 @@
+ ( (sin( 6.667522028184333 )* ( ( v27 +cos( ( v22 +sin(sin( (cos(sin( v28 ))- v24 ) ))) )) + ( ( v7 - ( v10 / -2.159448062762852 ) ) - (e(sin( (cos(sin( v28 ))* v20 ) ))- (cos( ( v25 +cos(sin( v28 ))) )*cos( ( v25 +cos(sin( v28 ))) )) ) ) ) ) +sin( (cos(sin( v28 ))* v20 ) )) 

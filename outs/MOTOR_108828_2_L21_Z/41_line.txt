@@ -1,0 +1,1 @@
+ ( ( ( v22 - v1 ) / (sin(abs(sin( ( (e( v22 )-cos( v26 )) * v1 ) )))+e(abs( ( v27 * (cos( v26 )*cos( v26 )) ) ))) ) + v1 ) 

@@ -1,0 +1,1 @@
+ ( ( ( v0 +cos( (sin( (cos(cos( v24 ))- v17 ) )+ ( v18 + v24 ) ) )) + ( ( ( (cos( ( v19 -e( v24 )) )- v3 ) *cos( v14 )) -sin( ( ( (cos(cos( v24 ))*e(cos(cos( v24 )))) * v24 ) +sin( v18 )) )) + v25 ) ) /e(cos(cos( v24 )))) 

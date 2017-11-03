@@ -1,0 +1,1 @@
+ ( ( (sin(e(e(sin( (cos( v7 )*cos( v7 )) ))))+ ( v23 + ( ( (cos( v7 )+tan(cos( v7 ))) + v14 ) + v10 ) ) ) /e( (tan(cos( v7 ))/cos( v7 )) )) - ( ( (sin( (cos( v7 )*cos( v7 )) )- v15 ) + v3 ) / ( (tan(cos( v7 ))/cos( v7 )) +cos(cos( v14 ))) ) ) 

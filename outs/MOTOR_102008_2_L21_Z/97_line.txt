@@ -1,0 +1,1 @@
+ (cos( 11.460985252964822 )* ( ( ( ( ( v2 *cos(abs(sin( v13 )))) - v0 ) /e( ( (abs(sin( v13 ))+ v22 ) * (abs(sin( v13 ))+ v22 ) ) )) + (cos(sin( (sin( v13 )/tan( v0 )) ))* v21 ) ) + ( v20 +sin( v13 )) ) ) 

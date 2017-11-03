@@ -1,0 +1,1 @@
+ ( ( v7 /e(abs( ( (sin(sin( v3 ))/e(cos( v3 ))) + ( v23 - (abs( (sin(sin( v3 ))/e(cos( v3 ))) )+ v20 ) ) ) ))) + ( v26 /e(sin(tan(cos( v3 ))))) ) 

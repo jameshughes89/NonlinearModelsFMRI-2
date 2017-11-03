@@ -1,0 +1,1 @@
+ ( ( ( ( ( v16 + v25 ) -sin( (sin( v8 )+ v26 ) )) + (tan(cos( (cos( v8 )+tan(sin( v8 ))) ))-tan( (sin( v8 )*sin( v8 )) )) ) + ( ( ( (sin( v8 )*sin( v8 )) -sin( (cos(cos( v8 ))+ ( ( 16.43934484142966 + -7.52772543556862 ) +sin(sin(sin( (sin( v8 )+ v26 ) )))) ) )) * v8 ) - ( v5 - v7 ) ) ) / ( 3.621463273575042 *cos(cos( v8 ))) ) 

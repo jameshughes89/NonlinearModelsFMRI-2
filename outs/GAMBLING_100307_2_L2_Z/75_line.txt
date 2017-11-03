@@ -1,0 +1,1 @@
+ ( ( (sin( v15 )*cos(cos(e(abs( v7 ))))) *sin(abs( v7 ))) + ( (cos( ( ( v7 -cos( (sin( v15 )*cos(cos(e(abs( v7 ))))) )) *sin(e(abs( v7 )))) )- (abs(cos( v11 ))- ( v9 - ( v8 - ( v6 + v2 ) ) ) ) ) * (cos( (sin( v15 )*cos(cos(e(abs( v7 ))))) )/ 2.2406922830722777 ) ) ) 

@@ -1,0 +1,1 @@
+ ( ( ( v11 *cos(cos(abs( v0 )))) + ( ( v20 + ( v5 - ( ( ( v14 - v18 ) + v0 ) /e(cos( v10 ))) ) ) + ( v21 - ( v8 + ( (sin( ( v8 - v18 ) )- v19 ) / (e(cos( v10 ))+e(cos( v10 ))) ) ) ) ) ) /e(cos( (cos(abs( v0 ))*sin( v17 )) ))) 

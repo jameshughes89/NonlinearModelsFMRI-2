@@ -1,0 +1,1 @@
+ ( (abs(cos( 14.776032238139202 ))*abs(cos(sin(cos( (cos( v13 )+ v13 ) ))))) * ( ( v26 +cos( ( (abs( v2 )*cos( ( v14 +cos( (cos( v13 )+ v13 ) )) )) -abs( ( ( (cos( v13 )+ v13 ) -tan(sin( v23 ))) - 18.072274807842952 ) )) )) + (cos(sin(cos( (cos( v13 )+ v13 ) )))* v7 ) ) ) 

@@ -1,0 +1,1 @@
+ (sin(cos(cos( ( (cos( v2 )+ v22 ) * (abs(cos( v2 ))+ v3 ) ) )))* ( v25 + ( (e(sin(cos(tan( v24 ))))* ( ( (sin( (abs(cos( v2 ))+ v3 ) )* v8 ) + v23 ) - ( (abs(cos( v2 ))+ v3 ) - (cos( v2 )+ v22 ) ) ) ) / 3.4301597078839308 ) ) ) 

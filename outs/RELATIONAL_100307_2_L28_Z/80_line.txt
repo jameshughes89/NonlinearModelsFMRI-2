@@ -1,0 +1,1 @@
+ ( ( ( ( v28 + v17 ) + ( v15 + ( ( ( v8 - v24 ) +abs(abs(cos( v1 )))) -cos( v13 )) ) ) - (sin( v10 )* (abs(cos( v1 ))-tan(abs(sin( v10 )))) ) ) *sin(sin( 6.593005452015895 ))) 

@@ -1,0 +1,1 @@
+ ( ( (sin(sin( v16 ))+ ( v22 + ( v7 + ( v17 + v19 ) ) ) ) + v1 ) * (e( (cos(sin(abs(sin(sin( v16 )))))*cos(cos(tan(e( v7 ))))) )/ ( ( 7.161908064578469 -cos( ( v19 / ( v7 /sin(sin( v16 ))) ) )) +sin( v3 )) ) ) 

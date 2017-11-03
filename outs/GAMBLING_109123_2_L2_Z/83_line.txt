@@ -1,0 +1,1 @@
+ (cos( -11.329808870374091 )* ( ( (cos( (cos( ( v5 -tan(cos( v6 ))) )- (e(sin( v26 ))+e(sin( v26 ))) ) )+ ( v6 + v15 ) ) + ( v26 -abs( (tan(sin( v0 ))*sin( v0 )) )) ) + (sin(abs( v15 ))+sin( v1 )) ) ) 

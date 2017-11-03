@@ -1,0 +1,1 @@
+ ( ( v26 /e(abs( ( v15 * (cos( v5 )*cos( v5 )) ) ))) - (abs( v9 )/ (e(abs( (cos( v5 )*cos( v5 )) ))/ ( v9 - v15 ) ) ) ) 

@@ -1,0 +1,1 @@
+ ( ( ( (abs( v7 )- ( ( ( v1 + (sin(sin( v11 ))+ ( ( v7 -sin( v11 )) + v26 ) ) ) - (abs( v16 )+e(sin(tan( v26 )))) ) +sin( ( ( v7 -sin( v11 )) + v26 ) )) ) / -3.948960125684696 ) +sin(abs( v7 ))) - (cos( v16 )* ( v28 /e(abs(sin(sin( v11 ))))) ) ) 

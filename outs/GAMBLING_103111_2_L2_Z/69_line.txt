@@ -1,0 +1,1 @@
+ ( ( ( v1 + ( ( (sin( v16 )*sin( v16 )) - ( (sin( ( ( v0 *cos(cos( v5 ))) -cos( (tan( v2 )*tan( v6 )) )) )*cos( (abs( v1 )- v15 ) )) -cos( ( v12 -cos(cos( v5 ))) )) ) * v15 ) ) + v27 ) / 2.69109040303659 ) 

@@ -1,0 +1,1 @@
+ ( (sin(sin( v15 ))+ ( v17 - ( ( ( ( v7 -sin(sin( v15 ))) - v25 ) + v14 ) / -2.6506174675276917 ) ) ) *cos(cos( (cos( ( (cos( ( v7 -sin(sin( v15 ))) )*sin( ( v28 * v7 ) )) - v5 ) )*abs(cos( ( v7 -sin(sin( v15 ))) ))) ))) 

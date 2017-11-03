@@ -1,0 +1,1 @@
+ ( ( ( v27 +sin( ( v15 + (sin( v1 )- v17 ) ) )) + ( ( ( (sin( v1 )- v17 ) + v1 ) / ( (cos( (tan(sin(sin( v1 )))*sin( v1 )) )+cos( (tan(sin(sin( v1 )))*sin( v1 )) )) /cos( ( (sin( v1 )- v17 ) * (tan(sin(sin( v1 )))*sin( v1 )) ) )) ) + v7 ) ) * (cos(cos( ( (sin( v1 )- v17 ) * (tan(sin(sin( v1 )))*sin( v1 )) ) ))/ ( 18.421211164583546 / 9.018151905620662 ) ) ) 

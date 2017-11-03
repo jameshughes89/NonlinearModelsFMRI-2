@@ -1,0 +1,1 @@
+ ( ( v25 + ( ( (tan(cos( (cos(sin(sin( v8 )))+ v5 ) ))/cos(sin(sin( v8 )))) + ( ( ( v8 + v26 ) +cos( ( (cos(sin(sin( v8 )))+ v5 ) - v27 ) )) - ( ( v8 * v8 ) - v13 ) ) ) / 3.7937932167067814 ) ) / (abs( (cos(sin(sin( v8 )))- v5 ) )+ (cos(sin(sin( v8 )))+ v5 ) ) ) 

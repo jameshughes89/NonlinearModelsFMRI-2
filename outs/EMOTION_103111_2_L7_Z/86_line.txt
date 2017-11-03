@@ -1,0 +1,1 @@
+ ( ( (sin( v18 )- (cos( v10 )* v25 ) ) - (sin( v25 )- v26 ) ) /e(abs(cos( ( v2 -cos( v18 )) )))) 

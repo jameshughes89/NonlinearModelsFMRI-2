@@ -1,0 +1,1 @@
+ ( ( (cos(cos(cos(e( v26 ))))* ( ( v26 - v3 ) + v17 ) ) + v15 ) * (cos(cos(e( v26 )))*cos(cos(abs(sin( v25 ))))) ) 

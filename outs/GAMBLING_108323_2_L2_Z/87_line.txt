@@ -1,0 +1,1 @@
+ ( ( ( ( v6 + v22 ) + (sin( v1 )+ v9 ) ) / (e(cos(cos(tan( ( v6 + v22 ) ))))+abs(e(cos(cos(tan( ( v6 + v22 ) )))))) ) + ( v15 / (abs( (sin( v1 )+e( v9 )) )+ (abs( -4.651087139540021 )/abs(e(cos(cos(tan( ( v6 + v22 ) )))))) ) ) ) 

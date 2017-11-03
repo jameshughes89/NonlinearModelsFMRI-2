@@ -1,0 +1,1 @@
+ (cos( -5.048829938478999 )* ( ( (sin(sin(cos( (e(sin( v8 ))/ v8 ) )))- ( v14 -sin(cos( (e(sin( v8 ))/ v8 ) ))) ) - ( ( (sin( v8 )* v27 ) - v27 ) + v13 ) ) + ( ( v7 + v26 ) /cos(cos( (e(sin( v8 ))/ v8 ) ))) ) ) 

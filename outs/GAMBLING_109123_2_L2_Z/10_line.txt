@@ -1,0 +1,1 @@
+ (cos(cos( ( ( v1 / v14 ) -e( v20 )) ))* ( ( v6 + (sin( v1 )+ v21 ) ) /e(sin(cos(cos( (sin( v28 )- v1 ) ))))) ) 

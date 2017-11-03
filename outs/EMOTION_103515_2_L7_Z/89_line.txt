@@ -1,0 +1,1 @@
+ (abs(sin( 6.691081652012375 ))* ( ( ( v6 + ( ( v7 -cos( ( v8 + (sin( v0 )*sin( v0 )) ) )) + v1 ) ) - (sin( v0 )+ v9 ) ) +abs(sin( ( v9 +tan(abs(sin( v0 )))) ))) ) 

@@ -1,0 +1,1 @@
+ ( ( ( ( ( (tan(sin( v26 ))- v16 ) +abs(sin( (e( ( v13 - (tan(sin( v26 ))- v5 ) ) )-abs(sin( v2 ))) ))) - (cos( (cos( ( v13 +sin( v2 )) )+abs( v5 )) )/cos(cos( ( v13 - (tan(sin( v26 ))- v5 ) ) ))) ) + v7 ) + v23 ) / 2.1743005236055915 ) 

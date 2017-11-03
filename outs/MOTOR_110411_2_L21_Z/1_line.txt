@@ -1,0 +1,1 @@
+ (sin( ( ( v5 + ( v22 +sin( v1 )) ) / -9.44173799426148 ) )* (cos( ( v25 - ( (sin(sin( v5 ))- v1 ) +cos( ( v1 -abs( (sin(sin( v5 ))- v1 ) )) )) ) )- (sin( ( (sin(sin( v5 ))- v1 ) +sin(sin(sin( v5 )))) )- -4.508196346718751 ) ) ) 

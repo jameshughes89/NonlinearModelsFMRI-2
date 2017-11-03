@@ -1,0 +1,1 @@
+ ( ( v27 + (cos(sin(sin( v28 )))* ( v7 + ( ( (sin( ( v12 - v28 ) )+ ( v8 - v25 ) ) +cos( (cos( v20 )/cos( v28 )) )) + ( ( v12 - v28 ) *sin(sin( v28 ))) ) ) ) ) / ( 2.703280394438444 -cos( (sin( v7 )+tan(cos(sin(sin( v28 ))))) )) ) 

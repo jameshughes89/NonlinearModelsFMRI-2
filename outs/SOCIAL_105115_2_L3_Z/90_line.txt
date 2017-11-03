@@ -1,0 +1,1 @@
+ (cos( 7.31556997344256 )* ( ( ( v12 + ( ( (sin( v0 )*abs(sin( v3 ))) - v22 ) *abs(sin( v0 ))) ) -sin(sin( v3 ))) + ( (sin(abs(sin( v0 )))* ( ( v20 - v25 ) + v0 ) ) + v25 ) ) ) 

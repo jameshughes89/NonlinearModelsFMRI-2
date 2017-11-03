@@ -1,0 +1,1 @@
+ ( ( ( (abs( v25 )- v6 ) + ( ( ( v23 - v13 ) *abs(abs(cos(sin( v24 ))))) * (cos( v24 )* v26 ) ) ) / -3.2434180858042723 ) + ( ( (sin( ( ( v23 - v13 ) *abs(abs(cos(sin( v24 ))))) )+ v26 ) + ( v27 + (cos( v23 )*abs( v13 )) ) ) /e(abs(abs(cos(sin( v24 )))))) ) 

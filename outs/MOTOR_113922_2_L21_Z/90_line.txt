@@ -1,0 +1,1 @@
+ ( ( ( v5 + (cos( v5 )* ( ( (abs( v5 )-abs( v26 )) + v22 ) - v5 ) ) ) + ( v15 + ( ( v9 + v5 ) - v8 ) ) ) / (sin(sin(sin(e(cos( v22 )))))+ (cos(cos( (cos( (abs( (abs( v5 )-abs( v26 )) )* v26 ) )- v15 ) ))+e(cos(cos( (cos( (abs( (abs( v5 )-abs( v26 )) )* v26 ) )- v15 ) )))) ) ) 

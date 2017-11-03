@@ -1,0 +1,1 @@
+ ( (sin( v26 )+ ( ( ( v7 -tan(sin( v2 ))) - (sin(e(sin( v2 )))- v27 ) ) +cos(cos( ( v2 * v2 ) ))) ) /e(cos(sin( ( ( ( ( v7 -tan(sin( v2 ))) - (sin(e(sin( v2 )))- v27 ) ) +cos(cos( ( v2 * v2 ) ))) + ( v11 * (sin( v2 )/ -3.0800421820929955 ) ) ) )))) 

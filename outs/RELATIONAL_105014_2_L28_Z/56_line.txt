@@ -1,0 +1,1 @@
+ (tan( -2.8707437774603406 )* ( v15 - (cos( (cos(cos( (tan(sin( v13 ))*abs( ( v27 +sin( v13 )) )) ))* ( ( v27 +sin( v13 )) - ( v0 -cos( ( v16 - v0 ) )) ) ) )- ( ( (cos(cos( (tan(sin( v13 ))*abs( ( v27 +sin( v13 )) )) ))* ( ( v27 +sin( v13 )) - ( v0 -cos( ( v16 - v0 ) )) ) ) + ( v17 + v15 ) ) - ( v15 - v17 ) ) ) ) ) 

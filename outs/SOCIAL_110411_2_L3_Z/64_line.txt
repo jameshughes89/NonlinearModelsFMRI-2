@@ -1,0 +1,1 @@
+ ( ( ( (cos(sin( v17 ))* ( ( v16 + v17 ) - v20 ) ) /e(cos(sin( v17 )))) + v25 ) *cos( (cos( ( ( ( v16 + v17 ) - v20 ) - ( ( v25 - ( v16 + v17 ) ) /tan(e( v16 ))) ) )*cos(cos(sin( v17 )))) )) 

@@ -1,0 +1,1 @@
+ (sin(tan( 18.566870956025866 ))* ( (sin( ( v22 - v7 ) )- ( v1 + ( v6 + v14 ) ) ) - (e(tan(tan(sin(abs( v19 )))))+ ( ( v10 - v19 ) -e(tan(tan(sin(abs( v19 )))))) ) ) ) 

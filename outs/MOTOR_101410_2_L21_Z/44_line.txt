@@ -1,0 +1,1 @@
+ ( ( v17 + (cos( 1.2591534956160046 )* ( ( ( ( v9 + ( (sin(sin( v0 ))- v17 ) + v16 ) ) *cos( (sin( v0 )- v0 ) )) + ( ( (sin( v1 )+ ( (sin(sin( v0 ))-cos( (sin( v0 )- v0 ) )) * v2 ) ) - v14 ) + v1 ) ) + v21 ) ) ) *cos( ( ( (sin(sin( v0 ))- v17 ) * v1 ) / ( (sin(sin( v0 ))- v17 ) * v1 ) ) )) 

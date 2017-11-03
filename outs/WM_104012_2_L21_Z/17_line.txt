@@ -1,0 +1,1 @@
+ ( v15 + ( (e(cos( v22 ))/ ( ( v2 - 8.82686177511447 ) +abs( ( v7 + v7 ) )) ) * ( ( v23 - ( v9 + ( ( ( (tan( v25 )-e(tan(tan( v25 )))) - v15 ) - (tan( v25 )-e(tan(tan( v25 )))) ) -sin( ( ( v26 -cos( ( ( v25 -abs( v17 )) /tan( v25 )) )) / (cos( ( v25 -abs( v17 )) )/sin( v25 )) ) )) ) ) -sin( v25 )) ) ) 

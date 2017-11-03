@@ -1,0 +1,1 @@
+ (e( -1.2589021252822477 )* ( ( ( v27 + v6 ) - ( (tan(abs(sin( ( v11 -cos( v21 )) )))+ (tan(abs(sin( ( v11 -cos( v21 )) )))-cos( (cos( v9 )+ v27 ) )) ) /e(e( ( ( v27 + v6 ) + ( (sin( v9 )/ ( ( v11 -cos( v21 )) *sin( ( v11 -cos( v21 )) )) ) + ( (e( ( v11 -cos( v21 )) )+ v11 ) / v11 ) ) ) ))) ) + ( (sin( v2 )+cos( (cos( v9 )+ v27 ) )) + v21 ) ) ) 

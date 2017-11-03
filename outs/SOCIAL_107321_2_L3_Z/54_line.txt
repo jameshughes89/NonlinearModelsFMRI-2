@@ -1,0 +1,1 @@
+ ( ( ( ( (cos( v3 )+ ( v20 - ( (cos(tan(sin( v26 )))+ v5 ) - v25 ) ) ) *cos(cos( (tan(sin( v26 ))*tan(sin( v26 ))) ))) + ( (cos(tan(sin( v26 )))* (sin( ( v0 - v26 ) )+ v14 ) ) + v8 ) ) -sin( v3 )) /abs(e(cos(cos( v15 ))))) 

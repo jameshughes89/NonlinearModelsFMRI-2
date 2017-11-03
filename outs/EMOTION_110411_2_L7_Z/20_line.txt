@@ -1,0 +1,1 @@
+ ( ( ( ( v10 *cos(tan(sin( v12 )))) - v24 ) + ( v27 + ( ( ( v14 + v16 ) -sin( v9 )) / (abs( v6 )+cos( v6 )) ) ) ) /e(cos(cos( v12 )))) 
