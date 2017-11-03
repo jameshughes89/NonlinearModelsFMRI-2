@@ -1,11 +1,11 @@
 '''
-Generates files with some details on each of the top models for each task/subject combo.
+Generates a python file with some details on each of the top models for each task/subject combo.
 
 The files with the actual expressions in them are used for other scripts for analysis
 
 '''
 
-#finds the top models for each subject
+
 import numpy as np
 import csv
 import sys
@@ -18,47 +18,37 @@ subjects =[100307, 100408, 101006, 101107, 101309, 101410, 101915, 102008, 10231
 
 fileLocation = '../outs/'
 
-lastsCount = 0
-for t in tasks:
-	allBestVal = []
-	allBestInd = []
-	bestExpressions = []
+for t, last in zip(tasks, lasts):
 
-
+	# setup file io stuff
 	oFile = open('./topModels/bestExpressions-NL-' + t + '.py','w')	
 	o2File = open('./topModels/bestExpressionsMSE-NL-' + t + '.txt','w')	
+	
+	# this makes it so we can just import the expressions as a library
 	oFile.write("from math import *\n\n")
 	fs='funcsNL = ['
-	count = 0
 	
 	print t
 
-	for s in subjects:
-		try:		
-			bestInd = -1;
-			bestVal = sys.float_info.max
-			iFile = csv.reader(open(fileLocation + t + "_"+str(s)+"_2_L" + lasts[lastsCount] + "_Z/" + 'stats.csv','r'))
-			
-			for l in iFile:
-				if float(l[1]) < bestVal:
-					bestVal = float(l[1])
-					bestInd = int(l[0])
-			print s, bestInd, bestVal
-			allBestVal.append(bestVal)
-			allBestInd.append(bestInd)
-			
-			o2File.write(str(allBestVal[-1]) + '\n')			
+	for s in subjects:	
+		bestVal = sys.float_info.max
+		iFile = csv.reader(open(fileLocation + t + "_"+str(s)+"_2_L" + str(last) + "_Z/" + 'stats.csv','r'))
+		
+		# finds the model with the lowest error (based on MSE)
+		for l in iFile:
+			if float(l[1]) < bestVal:
+				bestVal = float(l[1])
+				bestInd = int(l[0])
+		print s, bestInd, bestVal
+		
+		o2File.write(str(bestVal) + '\n')			
 
-			iFile = open(fileLocation + t + "_"+str(s)+"_2_L" + lasts[lastsCount] + "_Z/"+ str(allBestInd[-1]) + '_line.txt','r')				#CHANGE HERE
-			oFile.write('def funcNL_' + str(subjects[count]) + '(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return ' + iFile.next() + '\n')		#CHANGE HERE (in function name)
-			fs = fs + "funcNL_" + str(subjects[count]) + ","
-			count += 1
+		# copy the best expression (model) over to out python library
+		iFile = open(fileLocation + t + "_"+str(s)+"_2_L" + str(last) + "_Z/"+ str(bestInd) + '_line.txt','r')
+		oFile.write('def funcNL_' + str(s) + '(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return ' + iFile.next() + '\n')		#CHANGE HERE (in function name)
+		fs = fs + "funcNL_" + str(s) + ","
 
-			iFile.close()
-
-		except IOError:	
-			print "OMGZ@!!1!, " + t + "_" + str(s) + " was not there!!!!"			
-			continue
+		iFile.close()
 
 
 	fs = fs + "]"
@@ -66,12 +56,6 @@ for t in tasks:
 	oFile.write("\n\ndef getFuncs(): return funcs\n")
 	oFile.close()
 	o2File.close()
-	#print min(allBestVal)
-
-	lastsCount += 1
-
-
-
 
 
 

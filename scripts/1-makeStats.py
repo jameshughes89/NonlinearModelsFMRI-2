@@ -1,5 +1,5 @@
 '''
-Generates a single filed claled 'stats.csv' with basic overview info of all X (hardcoded to 100) runs of the task/subject combo
+Creates a single file for each subject/task combination with all the stats (fitness) from each model. 
 
 '''
 
@@ -14,21 +14,17 @@ subjects =[100307, 100408, 101006, 101107, 101309, 101410, 101915, 102008, 10231
 
 fileLocation = '../outs/'
 
-
-lastsCount =0
-for t in tasks:
+# for each task
+for t, last in zip(tasks, lasts):
+	# for each of the subjects
 	for s in subjects:
-		try:
-			oFile = open(fileLocation + t + "_"+str(s)+"_2_L" + lasts[lastsCount] + "_Z/stats.csv", 'w')
-			print t, s		
-			for i in range(0,100):
-				iFile = open(fileLocation + t + "_"+str(s)+"_2_L" + lasts[lastsCount] + "_Z/"+str(i)+"_fit.txt", 'r')
-				fitness = iFile.read()		
-				print '\t\t',fitness		
-				oFile.write(str(i)+","+fitness+"\n")
-				iFile.close()
-			oFile.close()
-		except IOError:		
-			print "OMGZ@!!1!, " + t + "_" + str(s) + " was not there!!!!"
-			continue	
-	lastsCount += 1
+		oFile = open(fileLocation + t + "_"+str(s)+"_2_L" + str(last) + "_Z/stats.csv", 'w')
+		print t, s		
+		# Hard coded the fact that we have 100 models (I did 100 runs). 
+		for i in range(0,100):
+			iFile = open(fileLocation + t + "_"+str(s)+"_2_L" + str(last) + "_Z/"+str(i)+"_fit.txt", 'r')
+			fitness = iFile.read()		
+			print '\t\t',fitness		
+			oFile.write(str(i)+","+fitness+"\n")	
+			iFile.close()
+		oFile.close()
