@@ -23,86 +23,36 @@ subjects =[100307, 100408, 101006, 101107, 101309, 101410, 101915, 102008, 10231
 for lastsCount,t in enumerate(tasks):
 
 	# load up the best expressions for the respective task
-	bexp = __import__('bestExpressions-NL=' + t)
+	bexp = __import__('bestExpressions-NL-' + t)
 	funcsNL = bexp.getFuncs()
 	
 
-	#allError = 0
-	#allErrorList = []
-	#count = 0
-	
 	oFile = open('./topModels/bestExpressionsError-NL-' + t + '.txt','w')
 	for index, s in enumerate(subjects):
-		#try:
+
 		data = np.array(list(csv.reader(open("/media/james/My Passport/HCP/HCP-Processed/" +t + "/" + t + "_"+str(s)+"_2_L" + lasts[lastsCount] + "_Z.csv",'r')))).astype(float)
 
 
-		#singleError = 0
-		#numLines = 0
-		
-		# for plotting I think
-		#Xs = range(len(data))
+		yNLabs = []
 
-		#YsNL = []
-		#YsL = []
-		yNLabs = 0
-		#yLabs = 0
-		#diffabs = 0
-
-		#yNLmse = 0
-		#yLmse = 0
-		#diffmse = 0
-
-
-		#for i in range(len(v29)):
-		for modelCount, l in enumerate(data)
+		for l in data:
 			#use count, it works when skppling subjects. 
 			try:
-				#yNL = funcsNL[count](v0[i],v1[i],v2[i],v3[i],v4[i],v5[i],v6[i],v7[i],v8[i],v9[i],v10[i],v11[i],v12[i],v13[i],v14[i],v15[i],v16[i],v17[i],v18[i],v19[i],v20[i],v21[i],v22[i],v23[i],v24[i],v25[i],v26[i],v27[i],v28[i],v29[i])
-				yNL = funcsNL[modelCount](*l)
+				yNL = funcsNL[index](*l)
+				yNLabs.append(abs(yNL - l[-1]))
 			except OverflowError:
 				print "\tOverrrrflow!"
-				# if some weird overflow issue, take the average of all poitns so far. 
-				yNL = np.mean(yNLabs)
+				# if some weird overflow issue, just add a nan
+				yNLabs.append(float('nan'))
 
-			yNLabs = yNLabs + abs(yNL - l[-1])			
+		yNLabs = np.nanmean(yNLabs)
 
-
-		yNLabs = yNLabs/len(data)
-
-
-		#print s, yNLabs, yLabs, diffabs, yNLmse, yLmse, diffmse
-		#outData.append([yNLabs])
 
 		print t, s, yNLabs			
 		
 		oFile.write(str(yNLabs) + '\n')			
-		'''	
-		print yabs/len(v29)
-		print yLabs/len(v29)
-		print diffabs/len(v29)
-		print "------"
-		print ymse/len(v29)
-		print yLmse/len(v29)
-		print diffmse/len(v29)
-	
 
-		#plt.plot(Xs, v29 'go')
-		plt.plot(Xs, v29 'b', label='measured')
-		plt.plot(Xs, Ys, 'r', label='SR-butLin')
-		plt.plot(Xs, YsL, 'g', label='GLM-Top 3')
-		plt.legend()
-		plt.show()
-		'''
 
-		'''
-			count += 1		#ONLY INCREASE COUNT WHEN WE SUCESSFULLY DID EVAL
-		except IOError:	
-			print "OMGZ@!!1!, " + t + "_" + str(s) + " was not there!!!!"			
-			continue
-		'''
-		
-	#lastsCount += 1
 	oFile.close()
 
 

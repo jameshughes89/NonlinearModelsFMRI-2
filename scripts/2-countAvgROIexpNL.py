@@ -64,44 +64,37 @@ for t in tasks:
 	AverageROITotal.append(np.mean(avgCount))
 	lastsCount += 1
 
-	#plt.hist(avgCount, alpha=0.5, bins=100)
-	#plt.show()
-
-	#plt.bar(range(1,31),np.mean(allCounts,axis=0))
-	#plt.show()
 	AverageROIAppearNL.append(np.mean(allCounts,axis=0))
 
 
 AverageROIAppearSameDF = []
 lastsCount = 0
 for t in tasks:
+	# 30 because that's the number of ROI
 	count = np.zeros(30)
 	for s in subjects:
 		inputMatrix = list(csv.reader(open("/media/james/My Passport/HCP/HCP-Processed/" +t + "/" + t + "_"+str(s)+"_2_L" + lasts[lastsCount] + "_Z.csv",'r')))
 		inputMatrix = np.array(inputMatrix).astype(float).transpose()
-		corMatrix = np.corrcoef(inputMatrix)				#MAKE MATRIX
+		corMatrix = abs(np.corrcoef(inputMatrix))				#MAKE MATRIX
 
-		#thresh = tm.FDR_thresh_corrmat(corMatrix, nTRs, alpha=0.05)		#GET THRESHOLD
-		#thresh = tm.percent_thresh(corMatrix, percentile=85)		#GET THRESHOLD
-		#thresh = tm.S_thresh(corMatrix, 2.5)		#GET THRESHOLD
-		#corMatrix[corMatrix < thresh] = 0
-
-		#print '\t\t'+str(thresh)
-		#np.savetxt(t + '_' + str(s) + '_' + str(level) + '_b4_fdr_lin.csv', corMatrix, delimiter=",")
-		#print corMatrix
+		# get the top correlated ROIs
 		topX = np.argsort(corMatrix[-1,:])[-(int(AverageROITotal[lastsCount])+2):]
 		print topX
-		for i in range(len(topX)):
-			count[topX[i]]+=1
+		# for each of the ROIs in the top, add that to the count
+		for top in topX:
+			count[top]+=1
+
+	# swap the last ROI and the ROI from the lasts
+	# **remember, the 'last' roi is the one we forced on the left 
 	count[-1] = count[int(lasts[lastsCount])-1]
-	count[int(lasts[lastsCount])-1] = 10
+	count[int(lasts[lastsCount])-1] = len(subjects)
 	AverageROIAppearSameDF.append(count)
 	lastsCount+=1
 
 
 for i,t in enumerate(tasks):
 	plt.bar(arange(1,31)-0.2, AverageROIAppearNL[i]/100,width=0.4)
-	plt.bar(arange(1,31)+0.2, AverageROIAppearSameDF[i]/10,color='g',width=0.4)
+	plt.bar(arange(1,31)+0.2, AverageROIAppearSameDF[i]/len(subjects),color='g',width=0.4)
 	plt.title(t)
 	plt.show()
 

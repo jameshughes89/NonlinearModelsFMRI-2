@@ -22,42 +22,39 @@ for t in tasks:
 	avgCount = []
 
 	for s in subjects:
-		try:
 
-			bestInd = -1;
-			bestVal = sys.float_info.max
-			iFile = csv.reader(open(fileLocation + t + "_"+str(s)+"_2_L" + lasts[lastsCount] + "_Z/" + 'stats.csv','r'))
-			
-			for l in iFile:
-				if float(l[1]) < bestVal:
-					bestVal = float(l[1])
-					bestInd = int(l[0])
+		bestInd = -1;
+		bestVal = sys.float_info.max
+		iFile = csv.reader(open(fileLocation + t + "_"+str(s)+"_2_L" + lasts[lastsCount] + "_Z/" + 'stats.csv','r'))
+		
+		for l in iFile:
+			if float(l[1]) < bestVal:
+				bestVal = float(l[1])
+				bestInd = int(l[0])
 
-			
+		
 
-			fCount = np.zeros(30)
-			#print s
-			#for i in range(0,100):
-			roiCount = 0
+		fCount = np.zeros(30)
+		#print s
+		#for i in range(0,100):
+		roiCount = 0
 
-			# opens the top model
-			print bestInd
-			inFile = csv.reader(open(fileLocation + t + "_"+str(s)+"_2_L" + lasts[lastsCount] + "_Z/"+ str(bestInd) + '_multi.txt','r'), delimiter='\t')
+		# opens the top model
+		print bestInd
+		inFile = csv.reader(open(fileLocation + t + "_"+str(s)+"_2_L" + lasts[lastsCount] + "_Z/"+ str(bestInd) + '_multi.txt','r'), delimiter='\t')
 
-			fBool = [False] * 30			
-			for line in inFile:
-				if(line[-1][0] == 'v'):
-					eInt = int(line[-1][1:])
-			
-					if(not(fBool[eInt])):
-						roiCount += 1
-						fBool[eInt] = True
-						fCount[eInt] += 1
-			print roiCount
-			avgCount.append(roiCount + 1)			# add 1 because we have the left hand side of the eqn
-		except IOError:
-			continue			
-			#print "OMGZ@!!1!, " + t + "_" + str(s) + " was not there!!!!"
+		fBool = [False] * 30			
+		for line in inFile:
+			if(line[-1][0] == 'v'):
+				eInt = int(line[-1][1:])
+		
+				if(not(fBool[eInt])):
+					roiCount += 1
+					fBool[eInt] = True
+					fCount[eInt] += 1
+		print roiCount
+		avgCount.append(roiCount + 1)			# add 1 because we have the left hand side of the eqn
+
 
 	print t, np.mean(avgCount), np.std(avgCount)
 	lastsCount += 1

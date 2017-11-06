@@ -21,12 +21,12 @@ fileLocation = '../outs/'
 for t, last in zip(tasks, lasts):
 
 	# setup file io stuff
-	oFile = open('./topModels/bestExpressions-NL-' + t + '.py','w')	
+	oFile = open('./bestExpressions-NL-' + t + '.py','w')	
 	o2File = open('./topModels/bestExpressionsMSE-NL-' + t + '.txt','w')	
 	
 	# this makes it so we can just import the expressions as a library
 	oFile.write("from math import *\n\n")
-	fs='funcsNL = ['
+	fs='funcs = ['
 	
 	print t
 
