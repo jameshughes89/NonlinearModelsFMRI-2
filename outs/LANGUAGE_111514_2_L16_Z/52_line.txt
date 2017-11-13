@@ -1,1 +1,1 @@
- ( ( ( v11 +sin( v27 )) + ( v7 - ( ( v25 - v17 ) /abs(cos(cos( v5 )))) ) ) /e(cos( (sin( (cos( v5 )+ (e( v11 )/cos( ( v13 * v13 ) )) ) )*cos( ( v22 - v25 ) )) ))) 
+ ( ( v17 + ( ( ( v27 *sin(abs(cos( v25 )))) +sin( v11 )) - ( v25 - v7 ) ) ) /e(cos( (e( ( v25 +abs( v11 )) )/ ( ( v24 * v24 ) +e( ( v25 +abs( v11 )) )) ) ))) 
