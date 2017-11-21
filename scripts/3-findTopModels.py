@@ -45,7 +45,7 @@ for t, last in zip(tasks, lasts):
 
 		# copy the best expression (model) over to out python library
 		iFile = open(fileLocation + t + "_"+str(s)+"_2_L" + str(last) + "_Z/"+ str(bestInd) + '_line.txt','r')
-		oFile.write('def funcNL_' + str(s) + '(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return ' + iFile.next() + '\n')		#CHANGE HERE (in function name)
+		oFile.write('def funcNL_' + str(s) + '(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return ' + iFile.next().replace('e(', 'exp(') + '\n')		#CHANGE HERE (in function name)
 		fs = fs + "funcNL_" + str(s) + ","
 
 		iFile.close()
