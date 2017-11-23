@@ -17,11 +17,12 @@ subjects =[100307, 100408, 101006, 101107, 101309, 101410, 101915, 102008, 10231
 #subjects =[100307]
 
 lastsCount = 0
+alpha=1
 
 for t in tasks:
 	bestExpressions = []
-	oFile = open('./topModels/bestExpressions-L-BC-' + t + '_LASSO.txt','w')	
-	o2File = open('./topModels/bestExpressionsError-L-BC-' + t + '_LASSO.txt','w')	
+	oFile = open('./topModels/bestExpressions-L-BC-' + t + '_LASSO_' + str(alpha) + '.txt','w')	
+	o2File = open('./topModels/bestExpressionsError-L-BC-' + t + '_LASSO_' + str(alpha) + '.txt','w')	
 	fs='funcsL = ['
 	count = 0
 	for s in subjects:
@@ -69,8 +70,8 @@ for t in tasks:
 			reg.fit(X, y)
 
 			B = []
-			B.append(reg.intercept_)
-			B = B + reg.coef_
+			B = [reg.intercept_]
+			B = B + list(reg.coef_)
 			
 			error = np.mean(np.abs(y - reg.predict(X)))
 

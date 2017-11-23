@@ -16,6 +16,8 @@ font = {'family' : 'normal',
 tasks = ["EMOTION", "GAMBLING", "LANGUAGE", "MOTOR", "RELATIONAL", "SOCIAL", "WM"]
 topXs = [2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
 
+alpha=1
+
 allNL = []
 allL = []
 for t in tasks:
@@ -30,7 +32,7 @@ for t in tasks:
 
 	L = []
 	for i in topXs:
-		iFile = csv.reader(open('./topModels/bestExpressionsError-L-TOP' + str(i) + '-' + t +'_LASSO.txt','r'))
+		iFile = csv.reader(open('./topModels/bestExpressionsError-L-TOP' + str(i) + '-' + t +'_LASSO_' + str(alpha) + '.txt','r'))
 		TOPX = []
 		count = 0				# makes sure there are the same number of subjects loaded. 
 		for l in iFile:
