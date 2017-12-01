@@ -1,1 +1,1 @@
- ( ( ( v25 + ( v26 - v17 ) ) + ( ( v15 +cos( ( v13 - ( v18 + v24 ) ) )) + v25 ) ) / 2.87352753230925 ) 
+ ( ( ( ( (tan(cos( ( v24 - v27 ) ))+ v21 ) +tan(sin( v27 ))) / (cos(sin(sin( v25 )))+e( v24 )) ) + v25 ) / ( (cos(sin(sin( v25 )))/cos(sin(sin( v25 )))) +cos(sin(sin( v25 )))) ) 

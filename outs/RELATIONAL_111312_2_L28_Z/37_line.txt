@@ -1,0 +1,1 @@
+ (abs(cos( 17.811710120631943 ))* ( ( v15 - (cos( v0 )- v27 ) ) + ( (cos( v5 )-sin(sin( ( v3 *cos( (tan(tan(abs( v6 )))/ (cos( v6 )/ v27 ) ) )) ))) + ( v3 *cos( (tan(tan(abs( v6 )))/ (cos( v6 )/ v27 ) ) )) ) ) ) 

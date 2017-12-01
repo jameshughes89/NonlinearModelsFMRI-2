@@ -1,1 +1,1 @@
- ( (cos( v24 )/abs(e(abs( v27 )))) + ( v25 + ( ( (abs(sin( (abs( v27 )-sin(cos( v27 ))) ))- ( v8 - v25 ) ) +sin( ( v3 + ( v8 - v25 ) ) )) / -2.9861828285665624 ) ) ) 
+ ( (sin(cos(sin(cos(e( v27 )))))+ ( ( v18 *cos(sin(cos(e( v27 ))))) /e(e( v25 ))) ) + ( (sin(cos(sin(cos(e( v27 )))))* v25 ) + (e(sin( ( v18 - (cos(sin(cos(e( v27 ))))+ ( v13 - v24 ) ) ) ))/tan( 11.447205437692872 )) ) ) 

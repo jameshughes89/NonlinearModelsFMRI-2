@@ -21,9 +21,10 @@ for TOPX in range(2,31):		# REMEMBER -2 is really only 1 because the first negat
 	lastsCount = 0
 	for t in tasks:
 		bestExpressions = []
-		oFile = open('./topModels/bestExpressions-L-TOP' + str(TOPX) + '-' + t + '_LASSO_' + str(alpha) + '.txt','w')	
+		oFile = open('./bestExpressions-L-TOP' + str(TOPX) + '-' + t + '_LASSO_' + str(alpha) + '.py','w')	
 		o2File = open('./topModels/bestExpressionsError-L-TOP' + str(TOPX) + '-' + t + '_LASSO_' + str(alpha) + '.txt','w')	
-		fs='funcsL = ['
+		oFile.write("from math import *\n\n")
+		fs='funcs = ['
 		count = 0
 		for s in subjects:
 			print TOPX, t, s
@@ -97,6 +98,7 @@ for TOPX in range(2,31):		# REMEMBER -2 is really only 1 because the first negat
 		
 		fs = fs + "]"
 		oFile.write("\n" + fs)
+		oFile.write("\n\ndef getFuncs(): return funcs\n")
 		oFile.close()
 		o2File.close()
 

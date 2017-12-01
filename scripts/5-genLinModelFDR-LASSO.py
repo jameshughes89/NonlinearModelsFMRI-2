@@ -19,9 +19,10 @@ alpha=1
 
 for t in tasks:
 	bestExpressions = []
-	oFile = open('./topModels/bestExpressions-L-FDR-' + t + '_LASSO_' + str(alpha) + '.txt','w')	
+	oFile = open('./bestExpressions-L-FDR-' + t + '_LASSO_' + str(alpha) + '.py','w')	
 	o2File = open('./topModels/bestExpressionsError-L-FDR-' + t + '_LASSO_' + str(alpha) + '.txt','w')	
-	fs='funcsL_' + t + ' = ['
+	oFile.write("from math import *\n\n")
+	fs='funcs = ['
 	count = 0
 	for s in subjects:
 		try:		
@@ -96,6 +97,7 @@ for t in tasks:
 		
 	fs = fs + "]"
 	oFile.write("\n" + fs)
+	oFile.write("\n\ndef getFuncs(): return funcs\n")
 	oFile.close()
 	o2File.close()
 

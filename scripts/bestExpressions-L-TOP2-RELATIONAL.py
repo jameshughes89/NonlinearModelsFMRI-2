@@ -1,0 +1,47 @@
+from math import *
+
+def func_RELATIONAL_100307(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.852375045871 * 1 + 
+def func_RELATIONAL_100408(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.747790971656 * 1 + 
+def func_RELATIONAL_101006(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.829534811633 * 1 + 
+def func_RELATIONAL_101107(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.972323149486 * 1 + 
+def func_RELATIONAL_101309(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.773285595306 * 1 + 
+def func_RELATIONAL_101410(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.818905913332 * 1 + 
+def func_RELATIONAL_101915(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.837291720211 * 1 + 
+def func_RELATIONAL_102008(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.808568951909 * 1 + 
+def func_RELATIONAL_102311(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.864865466603 * 1 + 
+def func_RELATIONAL_102816(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.957686918457 * 1 + 
+def func_RELATIONAL_103111(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.865316230565 * 1 + 
+def func_RELATIONAL_103414(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.857161400194 * 1 + 
+def func_RELATIONAL_103515(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.825431184244 * 1 + 
+def func_RELATIONAL_103818(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.857803147069 * 1 + 
+def func_RELATIONAL_104012(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.7901875328 * 1 + 
+def func_RELATIONAL_104820(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.832155575843 * 1 + 
+def func_RELATIONAL_105014(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.841162682938 * 1 + 
+def func_RELATIONAL_105115(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.914677487014 * 1 + 
+def func_RELATIONAL_105216(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.898617455087 * 1 + 
+def func_RELATIONAL_105923(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.910503202583 * 1 + 
+def func_RELATIONAL_106016(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.880132251825 * 1 + 
+def func_RELATIONAL_106319(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.944063150993 * 1 + 
+def func_RELATIONAL_106521(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.928377597681 * 1 + 
+def func_RELATIONAL_107321(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.911398011391 * 1 + 
+def func_RELATIONAL_107422(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.826797530578 * 1 + 
+def func_RELATIONAL_108121(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.916927327383 * 1 + 
+def func_RELATIONAL_108323(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.92734022032 * 1 + 
+def func_RELATIONAL_108525(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.90244334014 * 1 + 
+def func_RELATIONAL_108828(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.860848835077 * 1 + 
+def func_RELATIONAL_109123(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.887970580528 * 1 + 
+def func_RELATIONAL_109325(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.88468816931 * 1 + 
+def func_RELATIONAL_110411(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.924216639249 * 1 + 
+def func_RELATIONAL_111312(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.755978680033 * 1 + 
+def func_RELATIONAL_111413(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.763640850432 * 1 + 
+def func_RELATIONAL_111514(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.871217898715 * 1 + 
+def func_RELATIONAL_111716(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.836963736858 * 1 + 
+def func_RELATIONAL_113215(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.642996154373 * 1 + 
+def func_RELATIONAL_113619(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.478924832054 * 1 + 
+def func_RELATIONAL_113922(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.936431910727 * 1 + 
+def func_RELATIONAL_114419(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.873555473106 * 1 + 
+def func_RELATIONAL_114924(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 0.90468660578 * 1 + 
+
+funcs = [funcL_RELATIONAL_100307,funcL_RELATIONAL_100408,funcL_RELATIONAL_101006,funcL_RELATIONAL_101107,funcL_RELATIONAL_101309,funcL_RELATIONAL_101410,funcL_RELATIONAL_101915,funcL_RELATIONAL_102008,funcL_RELATIONAL_102311,funcL_RELATIONAL_102816,funcL_RELATIONAL_103111,funcL_RELATIONAL_103414,funcL_RELATIONAL_103515,funcL_RELATIONAL_103818,funcL_RELATIONAL_104012,funcL_RELATIONAL_104820,funcL_RELATIONAL_105014,funcL_RELATIONAL_105115,funcL_RELATIONAL_105216,funcL_RELATIONAL_105923,funcL_RELATIONAL_106016,funcL_RELATIONAL_106319,funcL_RELATIONAL_106521,funcL_RELATIONAL_107321,funcL_RELATIONAL_107422,funcL_RELATIONAL_108121,funcL_RELATIONAL_108323,funcL_RELATIONAL_108525,funcL_RELATIONAL_108828,funcL_RELATIONAL_109123,funcL_RELATIONAL_109325,funcL_RELATIONAL_110411,funcL_RELATIONAL_111312,funcL_RELATIONAL_111413,funcL_RELATIONAL_111514,funcL_RELATIONAL_111716,funcL_RELATIONAL_113215,funcL_RELATIONAL_113619,funcL_RELATIONAL_113922,funcL_RELATIONAL_114419,funcL_RELATIONAL_114924,]
+
+def getFuncs(): return funcs

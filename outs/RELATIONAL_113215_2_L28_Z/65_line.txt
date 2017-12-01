@@ -1,0 +1,1 @@
+ ( ( ( ( (sin( v2 )* v26 ) *sin( v2 )) +cos( ( ( (sin( v2 )* v26 ) *sin( v2 )) + v3 ) )) + ( ( v17 -cos( v13 )) + v13 ) ) / (sin(cos( ( (sin( v2 )* v26 ) *sin( v2 )) ))+ ( v15 /sin( v15 )) ) ) 
