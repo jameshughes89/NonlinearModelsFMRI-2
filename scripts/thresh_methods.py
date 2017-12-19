@@ -1,5 +1,6 @@
 import numpy
 import scipy.stats
+import scipy.special
 import scipy.linalg
 import itertools
 import copy
@@ -405,7 +406,8 @@ def RtoP(r,nTRs):
 		p = 0.0
 	else:
 		t_squared = r*r * (df / ((1.0 - r) * (1.0 + r)))
-		p = scipy.stats.betai(0.5*df, 0.5, df / (df + t_squared))
+		#p = scipy.stats.betai(0.5*df, 0.5, df / (df + t_squared))
+		p = scipy.special.betainc(0.5*df, 0.5, df / (df + t_squared))
 	return p        
         
         

@@ -1,0 +1,46 @@
+from math import *
+
+def func_SOCIAL_100307(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 1.18523602859e-13 * 1 + 0.736529520289 * v19
+def func_SOCIAL_100408(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 8.44736201982e-14 * 1 + 0.683946200437 * v0
+def func_SOCIAL_101006(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return -3.69762639174e-14 * 1 + 0.659259336084 * v25
+def func_SOCIAL_101107(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return -3.99121871403e-14 * 1 + 0.911085986704 * v23
+def func_SOCIAL_101309(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 1.11067845952e-13 * 1 + 0.703587261023 * v25
+def func_SOCIAL_101410(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 7.43220920385e-17 * 1 + 0.727256956218 * v25
+def func_SOCIAL_101915(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 8.07466079188e-14 * 1 + 0.763790439192 * v7
+def func_SOCIAL_102008(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return -3.26731405143e-14 * 1 + 0.657909923525 * v0
+def func_SOCIAL_102311(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return -2.04572686126e-13 * 1 + 0.865095083638 * v16
+def func_SOCIAL_102816(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 5.803370671e-14 * 1 + 0.832901078627 * v16
+def func_SOCIAL_103111(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return -8.01276554204e-14 * 1 + 0.651270803623 * v19
+def func_SOCIAL_103414(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 3.58210844656e-14 * 1 + 0.68325409685 * v25
+def func_SOCIAL_103515(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return -1.54072125565e-13 * 1 + 0.707039267268 * v20
+def func_SOCIAL_103818(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return -3.12928711484e-14 * 1 + 0.614339916229 * v26
+def func_SOCIAL_104012(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return -6.32370309355e-14 * 1 + 0.839569355819 * v25
+def func_SOCIAL_104820(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return -9.8392349487e-14 * 1 + 0.734783739563 * v2
+def func_SOCIAL_105014(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 2.34134801525e-13 * 1 + 0.781083896479 * v25
+def func_SOCIAL_105115(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 3.12171438033e-14 * 1 + 0.809043348559 * v20
+def func_SOCIAL_105216(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 1.77028753288e-13 * 1 + 0.848252606986 * v19
+def func_SOCIAL_105923(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return -7.84747870547e-14 * 1 + 0.830956745132 * v16
+def func_SOCIAL_106016(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return -5.60996729339e-15 * 1 + 0.799035747913 * v25
+def func_SOCIAL_106319(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return -4.34216264009e-14 * 1 + 0.840253535475 * v25
+def func_SOCIAL_106521(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 1.41861683111e-13 * 1 + 0.678497604515 * v7
+def func_SOCIAL_107321(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 3.80356896242e-13 * 1 + 0.647063201543 * v20
+def func_SOCIAL_107422(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 1.09951357108e-13 * 1 + 0.75609509994 * v16
+def func_SOCIAL_108121(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 6.25313238102e-14 * 1 + 0.751429044692 * v25
+def func_SOCIAL_108323(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return -5.3468324978e-13 * 1 + 0.568777680686 * v25
+def func_SOCIAL_108525(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 8.92211077697e-14 * 1 + 0.909041166012 * v7
+def func_SOCIAL_108828(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return -3.26598657757e-13 * 1 + 0.7875387106 * v7
+def func_SOCIAL_109123(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return -7.82314548222e-14 * 1 + 0.835290986013 * v25
+def func_SOCIAL_109325(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 1.32812775032e-13 * 1 + 0.748434974722 * v17
+def func_SOCIAL_110411(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return -3.70656789135e-14 * 1 + 0.898297862279 * v25
+def func_SOCIAL_111312(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return -2.06970794025e-13 * 1 + 0.592347829646 * v25
+def func_SOCIAL_111413(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return -1.81769438691e-13 * 1 + 0.664901682157 * v10
+def func_SOCIAL_111514(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return -1.31787349098e-13 * 1 + 0.59681101081 * v11
+def func_SOCIAL_111716(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 8.37450648271e-14 * 1 + 0.692592103735 * v25
+def func_SOCIAL_113215(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return -2.15077849113e-13 * 1 + 0.755659303552 * v25
+def func_SOCIAL_113619(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 1.99919840301e-13 * 1 + 0.578463775223 * v2
+def func_SOCIAL_113922(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return 1.23408052705e-13 * 1 + 0.631966549331 * v16
+def func_SOCIAL_114419(v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29): return -2.29038691909e-13 * 1 + 0.509148107138 * v16
+
+funcs = [funcL_SOCIAL_100307,funcL_SOCIAL_100408,funcL_SOCIAL_101006,funcL_SOCIAL_101107,funcL_SOCIAL_101309,funcL_SOCIAL_101410,funcL_SOCIAL_101915,funcL_SOCIAL_102008,funcL_SOCIAL_102311,funcL_SOCIAL_102816,funcL_SOCIAL_103111,funcL_SOCIAL_103414,funcL_SOCIAL_103515,funcL_SOCIAL_103818,funcL_SOCIAL_104012,funcL_SOCIAL_104820,funcL_SOCIAL_105014,funcL_SOCIAL_105115,funcL_SOCIAL_105216,funcL_SOCIAL_105923,funcL_SOCIAL_106016,funcL_SOCIAL_106319,funcL_SOCIAL_106521,funcL_SOCIAL_107321,funcL_SOCIAL_107422,funcL_SOCIAL_108121,funcL_SOCIAL_108323,funcL_SOCIAL_108525,funcL_SOCIAL_108828,funcL_SOCIAL_109123,funcL_SOCIAL_109325,funcL_SOCIAL_110411,funcL_SOCIAL_111312,funcL_SOCIAL_111413,funcL_SOCIAL_111514,funcL_SOCIAL_111716,funcL_SOCIAL_113215,funcL_SOCIAL_113619,funcL_SOCIAL_113922,funcL_SOCIAL_114419,]
+
+def getFuncs(): return funcs
