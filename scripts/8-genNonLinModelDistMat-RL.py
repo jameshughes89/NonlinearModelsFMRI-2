@@ -46,7 +46,7 @@ for t in tasks:
 		print t, s
 		ALL = []
 		#iFile = csv.reader(open("/home/james/Desktop/nData/" + t + "_"+str(s)+"_2_L" + lasts[lastsCount] + "_Z.csv",'r'))
-		iFile = csv.reader(open("/home/james/Desktop/nData/" + t + "_"+str(s)+"_2_L" + lasts[lastsCount] + "_Z.csv",'r'))
+		iFile = csv.reader(open("/home/james/Desktop/nData/" + t + "_"+str(s)+"_2_L" + lasts[lastsCount] + "_RL_Z.csv",'r'))
 		for l in iFile:
 			ALL.append(l)
 
@@ -87,9 +87,9 @@ for t in tasks:
 
 	lastsCount +=1
 
-np.savetxt('msEmat_NL_LR.csv', matrixMSE, delimiter=",")
-np.savetxt('abEmat_NL_LR.csv', matrixABE, delimiter=",")
-np.savetxt('minmat_NL_LR.csv', matrixMIN, delimiter=",")
+np.savetxt('msEmat_NL_RL.csv', matrixMSE, delimiter=",")
+np.savetxt('abEmat_NL_RL.csv', matrixABE, delimiter=",")
+np.savetxt('minmat_NL_RL.csv', matrixMIN, delimiter=",")
 
 
 		
