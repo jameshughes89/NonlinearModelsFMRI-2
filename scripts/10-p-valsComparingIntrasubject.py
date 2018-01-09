@@ -1,5 +1,5 @@
 '''
-prints the matrix for generated for linear on LR on LR data.
+
 '''
 
 import numpy as np
