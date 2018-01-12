@@ -126,6 +126,9 @@ for taskCount, t in enumerate(tasks):
 	pltz.append(axes)
 	pltz[taskCount].set_title(t)
 
+	NLbestDiff = []
+	LbestDiff = []
+
 	for subjectCount, s in enumerate(subjects):
 		#print t, s
 
@@ -153,6 +156,14 @@ for taskCount, t in enumerate(tasks):
 		errorVector = [np.min(error_NL), error_BC_LASSO, error_FDR_LASSO, error_BC, error_FDR, error_TOP30_LASSO, error_TOP30]
 		smallestCount[np.argmin(errorVector)]+=1
 
+		difference = abs(errorVector[0] - np.min(errorVector[1:]))
+		# if NONlinear was better
+		if np.argmin(errorVector) == 0:
+			NLbestDiff.append(difference)
+		# if linear was better
+		else:
+			LbestDiff.append(difference)
+
 		#pVals.append(scipy.stats.ttest_1samp(error_NL, np.min([error_BC_LASSO, error_FDR_LASSO, error_BC, error_FDR, error_TOP30_LASSO, error_TOP30]))[1])
 		pVals.append(round(scipy.stats.ttest_1samp(error_NL, np.min([error_BC_LASSO, error_FDR_LASSO, error_BC, error_FDR, error_TOP30_LASSO, error_TOP30]))[1],3))
 
@@ -164,7 +175,12 @@ for taskCount, t in enumerate(tasks):
 
 	print t
 	print smallestCount 
-	print pVals
+	#print pVals
+	print
+	print 'when nonlinear was better, on average, it was better than the best liner by:'
+	print np.mean(NLbestDiff)
+	print 'when linear was better, on average, it was better than the best nonlinear by:'
+	print np.mean(LbestDiff)
 
 plt.show()
 		
