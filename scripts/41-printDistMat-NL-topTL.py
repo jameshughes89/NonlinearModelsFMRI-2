@@ -18,7 +18,7 @@ subjects =[100307, 100408, 101006, 101107, 101309, 101410, 101915, 102008, 10231
            109325, 110411, 111312, 111413, 111514, 111716, 113215, 113619, 113922, 114419]
 
 
-iFile =  csv.reader(open('abEmat_L_LR-FDR_LASSO_1.csv', 'r'))
+iFile =  csv.reader(open('abEmat_NL_LR_topRL.csv', 'r'))
 
 abeMat = []
 for l in iFile:
@@ -36,7 +36,7 @@ for i in range(len(abeMat)):
 
 
 
-iFile =  csv.reader(open('msEmat_L_LR-FDR_LASSO_1.csv', 'r'))
+iFile =  csv.reader(open('msEmat_NL_LR_topRL.csv', 'r'))
 mseMat = []
 for l in iFile:
 	mseMat.append(l)
@@ -54,7 +54,7 @@ for i in range(len(mseMat)):
 plt.matshow(abeMat)
 #plt.colorbar(ticks=[0,0.25,0.5,0.75,1.0])
 plt.colorbar()
-plt.title('Error Matrix for All Models on Every Subject (Linear)')
+plt.title('Error Matrix for All Models on Every Subject (Nonlinear)')
 plt.xlabel('Models')
 plt.ylabel('Data')
 
@@ -99,7 +99,7 @@ for i in range(len(tasks)):
 	
 plt.matshow(avgMatTask)
 plt.colorbar(label='Mean Absolute Error Averaged Over All Subjects')
-plt.title('Best Linear Models - FDR')
+plt.title('Best Nonlinear Models')
 plt.xlabel('Models')
 plt.ylabel('Data')
 
@@ -119,7 +119,7 @@ plt.show()
 #######
 #######
 
-iFile =  csv.reader(open('minmat_L_LR-FDR_LASSO_1.csv', 'r'))
+iFile =  csv.reader(open('minmat_NL_LR_topRL.csv', 'r'))
 
 minMat = []
 for l in iFile:

@@ -30,7 +30,7 @@ abeMat = abeMat.astype(np.float)
 for i in range(len(abeMat)):
 	for j in range(len(abeMat[i])):
 		#abeMat[i][j] = log(abeMat[i][j])
-		if abeMat[i][j] > 1 :
+		if abeMat[i][j] > 100 :
 			abeMat[i][j] = np.float('nan')
 			#abeMat[i][j] = np.float(1)
 

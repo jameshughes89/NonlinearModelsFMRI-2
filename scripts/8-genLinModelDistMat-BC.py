@@ -65,9 +65,13 @@ for t in tasks:
 				msE = []
 				abE = []			
 				for l in ALL:
-					err = l[-1] - f(l[0],l[1],l[2],l[3],l[4],l[5],l[6],l[7],l[8],l[9],l[10],l[11],l[12],l[13],l[14],l[15],l[16],l[17],l[18],l[19],l[20],l[21],l[22],l[23],l[24],l[25],l[26],l[27],l[28],l[29])
-					msE.append(err**2)
-					abE.append(abs(err))
+					try:
+						err = l[-1] - f(l[0],l[1],l[2],l[3],l[4],l[5],l[6],l[7],l[8],l[9],l[10],l[11],l[12],l[13],l[14],l[15],l[16],l[17],l[18],l[19],l[20],l[21],l[22],l[23],l[24],l[25],l[26],l[27],l[28],l[29])
+						msE.append(err**2)
+						abE.append(abs(err))
+					except(ValueError, OverflowError, ZeroDivisionError): 
+						msE.append(float('nan'))
+						abE.append(float('nan'))
 				
 				allmsE.append((np.mean(msE)))
 				allabE.append((np.mean(abE)))
