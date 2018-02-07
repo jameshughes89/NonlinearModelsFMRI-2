@@ -139,7 +139,7 @@ for taskCount, t in enumerate(tasks):
 		plt.axvline(error_FDR, label='FDR %.3f' % round(error_FDR, 3), color='c')
 		plt.axvline(error_FDR_LASSO, label='FDR Lasso %.3f' % round(error_FDR_LASSO, 3), color='m')
 		plt.axvline(error_TOP30, label='All %.3f' % round(error_TOP30, 3), color='y')
-		plt.axvline(error_TOP30_LASSO, label='ALL Lasso %.3f' % round(error_TOP30_LASSO, 3), color='k')
+		plt.axvline(error_TOP30_LASSO, label='All Lasso %.3f' % round(error_TOP30_LASSO, 3), color='k')
 
 		plt.legend()
 		plt.show()

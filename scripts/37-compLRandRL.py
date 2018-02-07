@@ -8,6 +8,7 @@ import csv
 import math
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
 import scipy.stats
 
 # BC
@@ -125,6 +126,11 @@ for taskCount, t in enumerate(tasks):
 	axes = plt.subplot2grid((1,7), (0, taskCount))
 	pltz.append(axes)
 	pltz[taskCount].set_title(t)
+	if taskCount == 0:
+		pltz[taskCount].set_ylabel('Testing Data Mean Absolute Error')
+	
+	if taskCount == 3:
+		pltz[taskCount].set_xlabel('Trained Data Mean Ansolute Error')
 
 	NLbestDiff = []
 	LbestDiff = []
@@ -203,7 +209,10 @@ for taskCount, t in enumerate(tasks):
 		pltz[taskCount].plot([0,1],[0,1], linewidth=0.5)
 		pltz[taskCount].set_ylim(0,1)
 		pltz[taskCount].set_xlim(0,1)
-		
+
+		if taskCount == 0:
+			pltz[taskCount].legend(handles=[mpatches.Patch(color='b', label='Nonlinear'),mpatches.Patch(color='g', label='BC LASSO'),mpatches.Patch(color='r', label='FDR LASSO'),mpatches.Patch(color='c', label='BC'),mpatches.Patch(color='m', label='FDR'),mpatches.Patch(color='y', label='All LASSO'),mpatches.Patch(color='k', label='All'),], loc='lower right', fontsize=8)
+
 	
 	#print allDiffs
 	#print np.nanmedian(allDiffs/40)

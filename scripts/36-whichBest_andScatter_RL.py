@@ -8,6 +8,7 @@ import csv
 import math
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
 import scipy.stats
 
 # BC
@@ -113,7 +114,6 @@ subjects =[100307, 100408, 101006, 101107, 101309, 101410, 101915, 102008, 10231
 
 colors = ['b','g','r','c','m','y','k']
 
-
 pltz = []
 
 for taskCount, t in enumerate(tasks):
@@ -125,6 +125,11 @@ for taskCount, t in enumerate(tasks):
 	axes = plt.subplot2grid((1,7), (0, taskCount))
 	pltz.append(axes)
 	pltz[taskCount].set_title(t)
+	if taskCount == 0:
+		pltz[taskCount].set_ylabel('Top Linear Mean Absolute Error')
+	
+	if taskCount == 3:
+		pltz[taskCount].set_xlabel('Top Nonlinear Mean Absolute Error')
 
 	NLbestDiff = []
 	LbestDiff = []
@@ -172,6 +177,8 @@ for taskCount, t in enumerate(tasks):
 		pltz[taskCount].plot([0,1],[0,1], linewidth=0.5)
 		pltz[taskCount].set_ylim(0,1)
 		pltz[taskCount].set_xlim(0,1)
+		if taskCount == 0:
+			pltz[taskCount].legend(handles=[mpatches.Patch(color='b', label='Nonlinear'),mpatches.Patch(color='g', label='BC LASSO'),mpatches.Patch(color='r', label='FDR LASSO'),mpatches.Patch(color='c', label='BC'),mpatches.Patch(color='m', label='FDR'),mpatches.Patch(color='y', label='All LASSO'),mpatches.Patch(color='k', label='All'),], loc='upper left', fontsize=8)
 
 	print t
 	print smallestCount 
@@ -182,6 +189,7 @@ for taskCount, t in enumerate(tasks):
 	print 'when linear was better, on average, it was better than the best nonlinear by:'
 	print np.mean(LbestDiff)
 
+#plt.suptitle('Top Nonlinear Mean Absolute Error')
 plt.show()
 		
 

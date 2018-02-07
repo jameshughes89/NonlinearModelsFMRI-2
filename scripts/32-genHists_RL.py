@@ -135,13 +135,16 @@ for taskCount, t in enumerate(tasks):
 		plt.clf()
 		plt.hist(error_NL, alpha=0.5, bins=25)
 		plt.axvline(error_BC, label='BC %.3f' % round(error_BC, 3) , color='g')
-		plt.axvline(error_BC_LASSO, label='BC Lasso %.3f' % round(error_BC_LASSO, 3), color='r')
+		plt.axvline(error_BC_LASSO, label='BC LASSO %.3f' % round(error_BC_LASSO, 3), color='r')
 		plt.axvline(error_FDR, label='FDR %.3f' % round(error_FDR, 3), color='c')
-		plt.axvline(error_FDR_LASSO, label='FDR Lasso %.3f' % round(error_FDR_LASSO, 3), color='m')
+		plt.axvline(error_FDR_LASSO, label='FDR LASSO %.3f' % round(error_FDR_LASSO, 3), color='m')
 		plt.axvline(error_TOP30, label='All %.3f' % round(error_TOP30, 3), color='y')
-		plt.axvline(error_TOP30_LASSO, label='ALL Lasso %.3f' % round(error_TOP30_LASSO, 3), color='k')
+		plt.axvline(error_TOP30_LASSO, label='All LASSO %.3f' % round(error_TOP30_LASSO, 3), color='k')
 
 		plt.legend()
+		plt.title('Distribution of Models\' Error on Unseen Data')
+		plt.ylabel('Count')
+		plt.xlabel('Mean Absolute Error')
 		plt.show()
 
 

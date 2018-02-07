@@ -77,7 +77,7 @@ for t in tasks:
 						fCount[int(lasts[lastsCount]) - 1] += 1
 					else:
 						fCount[i] += 1
-
+			fCount[int(lasts[lastsCount]) - 1] = 1
 
 			sumCounts.append(fCount)
 	allVarCounts.append(np.sum(sumCounts,axis=0))

@@ -27,7 +27,7 @@ fileLocation = '../outs/'
 lastsCount = 0
 for t in tasks:
 	count = 0
-
+	sumCounts = []
 	for s in subjects:
 		#try:		
 			fcount = np.zeros(30)
@@ -50,7 +50,11 @@ for t in tasks:
 			
 			fcount[-1] = fcount[int(lasts[lastsCount]) - 1]
 			fcount[int(lasts[lastsCount]) - 1] = 1			
-			allVarCounts.append(fcount)
+			#allVarCounts.append(fcount)
+
+			sumCounts.append(fcount)
+	allVarCounts.append(np.sum(sumCounts,axis=0))
+
 
 	lastsCount+=1
 

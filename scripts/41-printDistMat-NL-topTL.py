@@ -97,16 +97,17 @@ for i in range(len(tasks)):
 	for j in range(len(tasks)):
 		avgMatTask[i,j] = np.nanmean(abeMat[i * len(subjects):(i+1)* len(subjects),j * len(subjects):(j+1)* len(subjects)])
 	
-plt.matshow(avgMatTask)
+plt.matshow(avgMatTask, vmin=0.4, vmax=1.0)
 plt.colorbar(label='Mean Absolute Error Averaged Over All Subjects')
-plt.title('Best Nonlinear Models')
+#plt.colorbar()
+plt.title('Nonlinear (Testing)')
 plt.xlabel('Models')
 plt.ylabel('Data')
 
 #plt.xticks(range(51,102*7, 102), ["EMOTION", "GAMBLING", "LANGUAGE", "MOTOR", "RELATIONAL", "SOCIAL", "WM"])
 #plt.yticks(range(51,102*7, 102), ["EMOTION", "GAMBLING", "LANGUAGE", "MOTOR", "RELATIONAL", "SOCIAL", "WM"], rotation =90)
 plt.xticks(range(0,len(tasks)), ["E", "G", "L", "M", "R", "S", "W"])
-plt.yticks(range(0,len(tasks)), ["E", "G", "L", "M", "R", "S", "W"], rotation =90)
+plt.yticks(range(0,len(tasks)), ["E", "G", "L", "M", "R", "S", "W"])
 plt.legend()
 
 for asd, cas in enumerate(avgMatTask):

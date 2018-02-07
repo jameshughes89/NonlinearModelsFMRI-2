@@ -55,14 +55,14 @@ for t in tasks:
 
 
 			for i in range(len(DATA)):
-				if DATA[i] < thr:
+				if DATA[i] > thr:
 					if i == (int(lasts[lastsCount]) - 1):
 						fCount[29] += 1
 					elif i == 29:
 						fCount[int(lasts[lastsCount]) - 1] += 1
 					else:
 						fCount[i] += 1
-
+			fCount[int(lasts[lastsCount]) - 1] = 1
 
 			sumCounts.append(fCount)
 	allVarCounts.append(np.sum(sumCounts,axis=0))

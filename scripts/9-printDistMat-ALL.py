@@ -8,7 +8,6 @@ import sys
 from math import *
 import matplotlib
 import matplotlib.pylab as plt
-import scipy.stats
 
 tasks = ["EMOTION", "GAMBLING", "LANGUAGE", "MOTOR", "RELATIONAL", "SOCIAL", "WM"]
 lasts = ["7", "2", "16", "21", "28", "3", "21"]
@@ -18,32 +17,75 @@ subjects =[100307, 100408, 101006, 101107, 101309, 101410, 101915, 102008, 10231
            106016, 106319, 106521, 107321, 107422, 108121, 108323, 108525, 108828, 109123,
            109325, 110411, 111312, 111413, 111514, 111716, 113215, 113619, 113922, 114419]
 
-def loadData(fName):
+def makePlot(iFile, title, pltz, c):
 
-	iFile =  csv.reader(open(fName, 'r'))
+	iFile =  csv.reader(open(iFile, 'r'))
 	abeMat = []
-
 	for l in iFile:
 		abeMat.append(l)
 	abeMat = np.array(abeMat)
 	abeMat = abeMat.astype(np.float)
 
+
 	for i in range(len(abeMat)):
 		for j in range(len(abeMat[i])):
+			#abeMat[i][j] = log(abeMat[i][j])
 			if abeMat[i][j] > 100 :
 				abeMat[i][j] = np.float('nan')
-
-	return abeMat
-
-# 'abEmat_NL_LR_topRL.csv'
-
-abeMat_NL_LR = loadData('abEmat_NL_LR_topRL.csv')
-#abeMat_NL = loadData('abEmat_NL_LR.csv')
-abeMat_NL = loadData('abEmat_L_LR-TOP30_LASSO_1.csv')
+				#abeMat[i][j] = np.float(1)
 
 
 
+	avgMatTask = np.zeros((len(tasks),len(tasks)))
 
-for i in range(len(tasks)):
-	print scipy.stats.mannwhitneyu(abeMat_NL[i * len(subjects):(i+1)* len(subjects), i * len(subjects):(i+1)* len(subjects)].flatten(), abeMat_NL_LR[i * len(subjects):(i+1)* len(subjects), i * len(subjects):(i+1)* len(subjects)].flatten())
+	for i in range(len(tasks)):
+		for j in range(len(tasks)):
+			avgMatTask[i,j] = np.nanmean(abeMat[i * len(subjects):(i+1)* len(subjects),j * len(subjects):(j+1)* len(subjects)])
+	
+
+	axes = plt.subplot2grid((1,4), (0, c))
+	pltz.append(axes)
+	im = pltz[c].matshow(avgMatTask, vmin=0.4, vmax=1.0)
+	#plt.colorbar(label='Mean Absolute Error Averaged Over All Subjects')
+	pltz[c].set_title(title)
+	pltz[c].set_xlabel('Models')
+	pltz[c].set_ylabel('Data')
+
+	#if c == 0:
+	pltz[c].set_yticks(range(7))
+	pltz[c].set_yticklabels(["E", "G", "L", "M", "R", "S", "W"])
+	#else:
+	#	pltz[c].set_yticklabels([])	
+
+	pltz[c].set_xticks(range(7))
+	pltz[c].set_xticklabels(["E", "G", "L", "M", "R", "S", "W"])
+
+	if c == 3:
+		cbar_ax = fig.add_axes()
+		fig.colorbar(im, cax=cbar_ax, label='Mean Absolute Error Averaged Over All Subjects')	
+
+	for asd, cas in enumerate(avgMatTask):
+		for sdf, c in enumerate(cas):
+				plt.text(sdf-.4, asd+.2, "%.2f" % c)
+
+
+
+
+
+
+pltz = []
+fig = plt.figure(0)
+makePlot('abEmat_NL_LR.csv', 'Nonlinear', pltz, 0)
+#makePlot('abEmat_L_LR-BC.csv', 'BC', pltz, 1)
+makePlot('abEmat_L_LR-BC_LASSO_1.csv', 'Linear: BC LASSO', pltz, 1)
+#makePlot('abEmat_L_LR-FDR.csv', 'FDR', pltz, 3)
+makePlot('abEmat_L_LR-FDR_LASSO_1.csv', 'Linear: FDR LASSO', pltz, 2)
+#makePlot('abEmat_L_LR-TOP30.csv', 'ALL', pltz, 5)
+makePlot('abEmat_L_LR-TOP30_LASSO_1.csv', 'Linear: LASSO', pltz, 3)
+
+plt.show()
+
+
+
+
 

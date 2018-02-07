@@ -45,7 +45,7 @@ for t in tasks:
 		#try:	
 			fcount = np.zeros(30)	
 			ALL = []
-			iFile = csv.reader(open("/media/james/My Passport/HCP/HCP-Processed/" +t + "/" + t + "_"+str(s)+"_2_L" + lasts[lastsCount] + "_Z.csv",'r'))
+			iFile = csv.reader(open("/home/james/Desktop/nData/" + t + "_"+str(s)+"_2_L" + lasts[lastsCount] + "_Z.csv",'r'))
 			for l in iFile:
 				ALL.append(l)
 

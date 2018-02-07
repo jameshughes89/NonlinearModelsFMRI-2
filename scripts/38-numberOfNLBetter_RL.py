@@ -125,6 +125,11 @@ for taskCount, t in enumerate(tasks):
 	axes = plt.subplot2grid((1,7), (0, taskCount))
 	pltz.append(axes)
 	pltz[taskCount].set_title(t)
+	if taskCount == 0:
+		pltz[taskCount].set_ylabel('Count')
+	
+	if taskCount == 3:
+		pltz[taskCount].set_xlabel('Number of Times Nonlinear Models Had a Smaller Error')
 
 	NLbestDiff = []
 	LbestDiff = []
@@ -177,8 +182,9 @@ for taskCount, t in enumerate(tasks):
 
 
 
-		
-	pltz[taskCount].hist(numberOfTimesBetter)
+	pltz[taskCount].set_ylim(0,25)
+	pltz[taskCount].set_xlim(0,100)
+	pltz[taskCount].hist(numberOfTimesBetter, bins=range(0,101,10))
 		
 
 	'''
